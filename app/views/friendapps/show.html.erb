@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @friendapp %>
+
+<div>
+  <%= link_to "Edit this friendapp", edit_friendapp_path(@friendapp) %> |
+  <%= link_to "Back to friendapps", friendapps_path %>
+
+  <%= button_to "Destroy this friendapp", @friendapp, method: :delete %>
+</div>

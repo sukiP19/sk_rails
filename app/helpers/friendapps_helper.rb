@@ -1,0 +1,2 @@
+module FriendappsHelper
+end
